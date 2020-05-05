@@ -32,9 +32,13 @@ Libraries and Frameworks:
 ## Files and folders
 
 [teamup.py](teamup.py) is the main flask app
+
 [functions.py](functions.py) contains the functions for the app
+
 [algorithm.py](algorithm.py) contains the primary algorithm
+
 HTML files are found in the *templates* folder
+
 Static files (CSS and images) are found in the *static* folder
 
 ## Database
