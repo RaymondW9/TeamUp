@@ -1,0 +1,485 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap');
+
+body, html {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+    line-height: 4.2vh;
+    font-family: 'Lato', Sans-Serif;
+}
+
+.backgroundResult {
+    background: url("/static/result.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    line-height:1.6em;
+    z-index: 1;
+}
+
+.backgroundCover {
+    background: url("/static/cover.png");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    line-height:1.6em;
+    z-index: 1;
+}
+
+
+.backgroundCode {
+    background: url("/static/skyline.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    line-height:1.6em;
+}
+
+.backgroundAbout {
+    background: url("/static/CAS.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    line-height:1.6em;
+}
+
+
+.backgroundStudentLogin {
+    background: url("/static/student discussing.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    line-height:1.6em;  
+}
+
+.backgroundTeacherLogin {
+    background: url("/static/student team.jpeg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    line-height:1.6em;
+}
+
+.backgroundEducatorCreateAnAccount {
+    background: url("/static/proflecture.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    line-height:1.6em;   
+}
+
+.backgroundCreateSurvey {
+    background: url("/static/Park.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: top;
+    background-size: cover;
+    line-height:1.6em;  
+}
+
+.navbar {
+    background-color: black;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    font-size = 32px;
+    z-index: 5;
+}
+
+.navbar a {
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 15px 20px;
+    text-decoration: none;
+    font-size = 32px;
+}
+
+.navbar a:hover {
+    color: #b5b5b5;
+}
+
+.navbar a.home {
+    float: left;
+    color: white;
+    font-size = 32px !important;
+}
+
+.navbar a.home:hover {
+    color: #b5b5b5;
+}
+
+.navbar a.activehome {
+    float: left;
+    color: #b5b5b5;
+}
+
+.navbar a.active {
+    color: #b5b5b5;
+}
+
+.container {
+    position: relative;
+    width: 80vw;
+    margin: auto;
+    top: 20vh;
+}
+
+.container2 {
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 60vw;
+    padding: 10vh;
+    margin: auto;
+    top: 20vh;
+}
+
+.container3 {
+    position: relative;
+    background-color: white;
+    color:white;
+    width: 60vw;
+    padding: 10vh;
+    z-index: 1;
+    margin: auto;
+    top: 40vh;
+}
+
+.container4 {
+    position: relative;
+    width: 80vw;
+    margin: auto;
+    top: 20vh;
+}
+
+.container5 {
+    position: relative;
+    background-color: rgba(255, 255, 255, 1);
+    top: 30vh;
+    padding: 10vh 10vw;
+    margin: auto;
+    width: 40vw;
+    text-align: center;
+}
+
+
+.results {
+    position: relative;
+    display: block;
+    background-color: rgba(255, 255, 255, 0.9);
+    top: 20vh;
+    margin: auto;
+    width: 40vw;
+    padding-top: 10vh;
+    padding-left: 10vw;
+    padding-right: 10vw;
+    color: black;
+    text-align: left;
+    font-size: 3vh;
+    line-height: 4.2vh;
+}
+
+h1{
+    position: relative;
+    color: black;
+    text-align: center;
+    font-size: 2vh;
+    font-family: 'Lato', sans-serif;
+    top: 15vh;
+    padding = 0;
+    margin = 0;
+    border = 0;
+    width = 20vw;
+    line-height: 4.2vh;
+    
+}
+
+h2 {
+    position: relative;
+    color: black;
+    text-align: center;
+    top: 15vh;
+    font-size: 5vh;
+    font-family: 'Lato', sans-serif;
+}
+
+h3 {
+    position: relative;
+    color: black;
+    text-align: center;
+    font-size: 5vh;
+    margin: 0vh;
+    border-top: 5vh;
+    padding-top: 0vh;
+    border-bottom: 0vh;
+    padding-bottom: 5vh;
+    line-height: 4.2vh;
+    font-family: 'Lato', sans-serif;
+}
+
+h4{
+    position: relative;
+    background-color: rgba(255, 255, 255, 0.8);
+    color: black;
+    text-align: center;
+    font-size: 3vh;
+    font-style: normal;
+    line-height: 4.2vh;
+}
+
+.normalFont{
+    text-align: left;
+    font-size: 3vh;
+    font-style: normal;
+    line-height: 4.2vh;
+}
+
+.centerFont{
+    text-align: center;
+    font-size: 3vh;
+    font-style: normal;
+    line-height: 4.2vh;
+}
+
+.centerFont1{
+    text-align: center;
+    font-size: 25px;
+    font-style: normal;
+    line-height: 4.2vh;
+}
+
+.centerFont1Bold{
+    text-align: center;
+    font-size: 25px;
+    font-style: bold;
+    line-height: 4.2vh;
+}
+
+
+.summary {
+    position: relative;
+    text-align: center;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.8);
+    width: 80vw;
+    top: 10vh;
+    line-height: 4.2vh;
+    color: red;
+    font-size: 2vh;
+    font-family: 'Lato', sans-serif;
+    
+}
+
+.button {
+    background:linear-gradient(to bottom, #551d89 5%, #551d89 100%);
+    background-color:#551d89;
+    display:inline-block;
+    position: relative;
+    cursor:pointer;
+    color:#ffffff;
+    width: 20vw;
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    margin: auto;
+    text-decoration:none;
+}
+
+.button:hover {
+    background-color:#4baaf8;
+}
+
+.button:active {
+    position:relative;
+    top:1px;
+}
+
+.question {
+    position: relative;
+    color: black;
+    text-align: left;
+    font-style: bold;
+    font-size: 2vh;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 0.5vh;
+}
+
+input[type=submit] {
+    background-color:#551d89;
+    color:#ffffff;
+    cursor:pointer;
+    display:inline-block;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    margin-right: 50vw;
+    width: 20vw;
+    height: 5vh;
+    text-decoration:none;
+}
+
+input[type=submit] {
+    background-color:#551d89;
+    color:#ffffff;
+    cursor:pointer;
+    display:inline-block;
+    position: relative;
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;
+    height: 5vh;
+    text-decoration:none;
+    border: none;
+}
+
+input[name=password]{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;
+}
+
+input[name=input]{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;
+}
+
+input[name=username]{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;
+}
+
+input[name=fullname]{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;
+}
+
+input[name=password2]{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;   
+}
+
+input[name="classname"]{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;   
+}
+
+input[name="classsize"]{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;   
+}
+    
+
+input[name="teamsize"]{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;   
+}
+
+input[name="skill1"]{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;   
+}
+
+input[name="skill2"]{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;   
+}
+
+input[name="skill3"]{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;   
+}
+
+input[name="skill4"]{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;   
+}
+
+input[name="classcode"]{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;
+}
+
+input[name="name"]{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;
+}
+
+input[name="email"]{
+    font-family: 'Lato', sans-serif;
+    font-size:14px;
+    width: 20vw;
+}
+
+.choices {
+    position: relative;
+    color: black;
+    width: 20vw;
+    font-size: 3vh;
+    font-family: 'Lato', sans-serif;
+    padding-bottom: 20px;
+}
+
+.choices label{
+    font-size:13px;
+}
+
+select {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  border: none;
+  background: none;
+  font-family: 'Lato', sans-serif;
+  font-size: 2vh;
+  color: #6b6b6b;
+  overflow: hidden;
+}
+
+.piechart {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+.transparent {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(255, 255, 255, 0.15);
+}
+
+form {
+    background-color: white;
+    position: relative;
+    margin: auto;
+    top: 20vh;
+    padding: 50px;
+    width: 20vw;
+}
+
